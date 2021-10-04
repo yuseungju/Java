@@ -1,4 +1,5 @@
 //익명 클래스를 여러번 호출햐야 되는경우 람다식으로 간결하게 표현 
+//implement해야될 함수가 두개면 사용불가함  (함수명 생략되므로 하나일때만 알 수 있음)
 public class EX2 {
 
 	public interface SupInterface{
