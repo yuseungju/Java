@@ -1,9 +1,9 @@
 //인스턴스 단 한개로 생성할떄, 익명클래스 사용해도됨 
-//클래스 정의후 여러번 인스턴스 필요하면, 클래스 정의 해놓는게 낫다고 생각 
+//클래스 정의후 여러번 인스턴스 필요하면, 클래스 정의 해놓는게 낫다고 생각 -> 람다식 이용해도됨 
 public class EX1 {
 
 	public interface SupInterface{
-		String desc = "class정의";
+		String desc = "class정의"; 
 		void getFun1();
 	}
 	public static void main(String[] args) {
