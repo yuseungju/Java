@@ -13,7 +13,7 @@ public class EX1 {
 			@Override
 			public void getFun1() {
 				System.out.println(desc);
-			}
+			} 
 		}
 		SubClass sub1 = new SubClass();
 		sub1.getFun1();
